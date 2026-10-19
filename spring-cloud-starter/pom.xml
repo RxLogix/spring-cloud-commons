@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-commons-parent</artifactId>
-		<version>4.3.3</version>
+		<version>4.3.3-rxlogix-1</version>
 	</parent>
 	<artifactId>spring-cloud-starter</artifactId>
 	<name>spring-cloud-starter</name>

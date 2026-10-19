@@ -10,7 +10,7 @@
 		<relativePath/>
 	</parent>
 	<artifactId>spring-cloud-commons-dependencies</artifactId>
-	<version>4.3.3</version>
+	<version>4.3.3-rxlogix-1</version>
 	<packaging>pom</packaging>
 	<name>spring-cloud-commons-dependencies</name>
 	<description>Spring Cloud Commons Dependencies</description>
