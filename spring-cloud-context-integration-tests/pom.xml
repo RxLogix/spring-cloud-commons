@@ -84,7 +84,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-deploy-plugin</artifactId>
 				<configuration>
-					<skip>true</skip>
+					<!-- RxLogix: deploy like upstream's release pipeline, which publishes this module
+						to Maven Central even though plain 'mvn deploy' was configured to skip it -->
+					<skip>false</skip>
 				</configuration>
 			</plugin>
 		</plugins>
